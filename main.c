@@ -16,7 +16,7 @@ typedef struct task_st {
 typedef struct queue_st {
     task_t *front;          // 队头
     task_t *rear;           // 队尾
-    int size;               // 当前任务数
+    int size;               // 当
     pthread_mutex_t mutex;  // 队列互斥锁
 } queue_t;
 
